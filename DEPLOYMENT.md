@@ -40,8 +40,8 @@ git push origin main
 6. Fill in the details:
    - **Name**: leave-management-api
    - **Root Directory**: `backend`
-   - **Runtime**: `Python 3` (or latest available)
-   - **Build Command**: `pip install -r requirements.txt` (Render should detect this automatically)
+   - **Runtime**: `Python 3` (Ensure `.python-version` or `PYTHON_VERSION=3.12.0` is used)
+   - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
 
 ### 4. Set Environment Variables
